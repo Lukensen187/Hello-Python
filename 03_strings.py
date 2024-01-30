@@ -53,4 +53,4 @@ print(reversed_language)
 
 # Funciones
 
-print(language.capitalize)
+print(language.capitalize())
