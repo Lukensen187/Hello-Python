@@ -1,3 +1,5 @@
+### Strings ### 
+
 
 my_string = "Mi String"
 my_other_string = 'Mi otro String'
@@ -22,3 +24,4 @@ name, surname, age = "Lucas", "Jara", 36
 
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
 print("Mi nombre es %s %s y mi edad es %d" %(name, surname, age))
+print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
