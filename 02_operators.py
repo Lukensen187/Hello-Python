@@ -1,4 +1,4 @@
- ### Operadores Arimeticos ###
+### Operadores Arimeticos ###
 
 print(3 + 4)
 print(3 - 4)
