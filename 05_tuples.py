@@ -34,5 +34,7 @@ print(tuple(my_tuple))
 print(my_tuple)
 print(type(my_tuple))
 
+#del my_tuple[2] TypeError 'tuple' object doesn't support item deletion
+
 del my_tuple
 #print(my_tuple) NameError: name 'my_tuple' is not defined
