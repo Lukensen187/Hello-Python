@@ -30,5 +30,10 @@ name, height, age, surname = my_other_list[2], my_other_list[1], my_other_list[0
 print(name)
 
 print(my_list + my_other_list)
+#print(my_list - my_other_list)
 
-print([1, 2, 3 ,4])
+
+
+my_list = "Hola Python"
+print(my_list)
+print(type(my_list))
