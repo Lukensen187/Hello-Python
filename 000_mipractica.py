@@ -1,4 +1,3 @@
-# Variables
-
-Datos = "Nombre:Lucas Edad:6"
-print(Datos)
+# Variables , Definicion y Datos () "" {} []
+# my_list = "Hola mundo"
+# print(my_list)
