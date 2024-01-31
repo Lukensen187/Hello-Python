@@ -4,3 +4,20 @@ my_list = list()
 my_other_list = []
 
 print(len(my_list))
+
+my_list = [35, 24, 62, 56, 31, 17, 15]
+
+print(my_list)
+print(len(my_list))  
+
+my_other_list = [35, 1.77, "Lucas", "Jara"]
+
+print(type(my_list))
+print(type(my_other_list))
+
+print(my_other_list[0])
+print(my_other_list[1])
+print(my_other_list[-1])
+print(my_other_list[-3]) 
+#print(my_other_list[4]) IndexError
+#print(my_other_list[-5]) IndexError
