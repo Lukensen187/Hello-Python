@@ -50,4 +50,13 @@ my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
 print(my_new_dict)
 my_new_dict = dict.fromkeys(my_dict)
 print(my_new_dict)
+my_new_dict = dict.fromkeys(my_dict, ("LucasDev"))
+print(my_new_dict)
 
+my_values = my_new_dict.values()
+print(type(my_values))
+
+print(my_new_dict.values())
+print(list(dict.fromkeys(list(my_new_dict.values())).keys()))
+print(tuple(my_new_dict))
+print(set(my_new_dict))
